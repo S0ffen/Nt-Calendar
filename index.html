@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="evo-calendar.min.css" />
-
-    <title>Document</title>
+    <link rel="stylesheet" href="evo-calendar.midnight-blue.min.css" />
+    <title>Nostale Calendar</title>
   </head>
   <body>
     <div class="hero">
@@ -36,15 +36,35 @@
               color: "#63d867", // Event custom color (optional)
             },
             {
-              name: "Vacation Leave",
+              name: "Fuzja SPP",
               badge: "01/11 - 02/14", // Event badge (optional)
               date: ["January/5/2024", "January/8/2024"], // Date range
-              description: "Vacation leave for 3 days.", // Event description (optional)
+              description:
+                "Od 05.01. (11:00 CET) do 08.01. (11:00 CET) otrzymasz +50% szansy na osiągniecie wyższych poziomów podczas ulepszania umiejętności specjalisty partnera!", // Event description (optional)
               type: "event",
               color: "#63d867", // Event custom color (optional)
             },
+            {
+              name: "Double EXP",
+              badge: "22 - 28",
+              date: ["December/22/2023", "December/28/2023"], // Date range
+              description:
+                "Niezależnie od tego, czy pokonujesz potwory, czy też kończysz misje – za jedno i drugie od 22.12. (godz. 0:00 CET) do 28.12. (godz. 23:59 CET) otrzymasz podwójną liczbę punktów doświadczenia.", // Event description (optional)
+              type: "event",
+              color: "#63d867", // Event custom color (optional)
+            },
+            {
+              name: "Double Drop",
+              badge: "22 - 25",
+              date: ["December/22/2023", "December/28/2023"], // Date range
+              description:
+                "Podwójne dropy przedmiotów (pokonaj potwory – tym razem masz podwójną szansę na zdobycie przedmiotów)", // Event description (optional)
+              type: "event",
+              color: "#00FFFF", // Event custom color (optional)
+            },
           ],
           language: "pl",
+          theme: "Midnight Blue",
           firstDayOfWeek: 1,
         });
       });
