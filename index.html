@@ -11,6 +11,7 @@
   </head>
   <body>
     <div class="hero">
+      <p class="previousEvent"></p>
       <div id="calendar"></div>
     </div>
 
@@ -254,9 +255,17 @@
       // selectEvent
       $("#calendar").on("selectEvent", function (activeEvent) {
         // do something
-        console.log(
-          activeEvent.currentTarget.evoCalendar.options.calendarEvents
-        );
+        var listofAll =
+          activeEvent.currentTarget.evoCalendar.options.calendarEvents;
+        var curentID =
+          activeEvent.currentTarget.evoCalendar.$active.events[0].id;
+        var filtered = listofAll.filter((x) => x.id == curentID);
+        console.log(filtered.length);
+        if (filtered.length >= 2) {
+          $(".previousEvent").html("Poprzedni event był " + filtered[1].badge);
+        } else {
+          $(".previousEvent").html("Nie było");
+        }
       });
     </script>
   </body>
