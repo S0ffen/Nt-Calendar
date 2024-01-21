@@ -69,29 +69,8 @@
           activeEvent.currentTarget.evoCalendar.$active.events[0];
         var filtered = listofAll.filter((x) => x.id == curentID);
 
-        var mostwaitedEvents = [];
-        for (var i = 0; i < listofAll.length; i++) {
-          var today = new Date() - new Date(listofAll[i].date[0]);
-          today = Math.floor(today / (1000 * 60 * 60 * 24));
-          mostwaitedEvents.push(today);
-        }
-
-        //testing
-        // var x = [];
-        // for (var i = 0; i < listofAll.length; i++) {
-        //   x.push(listofAll[i]);
-        //   // console.log(listofAll[i].id);
-        // }
-        // var test = x.filter((value) => {
-        //   if (!test[value]) {
-        //     test[value] = true;
-        //     return true;
-        //   }
-        //   return false;
-        // });
-        //testing
         console.log(listofAll);
-        console.log(mostwaitedEvents);
+
         if (filtered.length >= 2) {
           // var lastEventDays = filtered.find((x) => new Date(x.datediff));
           var currentIndex = filtered.findIndex((x) => x == currentEvent);
