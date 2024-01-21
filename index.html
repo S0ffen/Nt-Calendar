@@ -32,13 +32,13 @@
               type: "event",
               color: "#000000", // Event custom color (optional)
             },
-            {
-              id: "event1", // Event's ID (required)
-              name: "New Year", // Event name (required)
-              date: "January/3/2024", // Event date (required)
-              type: "holiday", // Event type (required)
-              everyYear: true, // Same event every year (optional)
-            },
+            // {
+            //   id: "event1", // Event's ID (required)
+            //   name: "New Year", // Event name (required)
+            //   date: "January/3/2024", // Event date (required)
+            //   type: "holiday", // Event type (required)
+            //   everyYear: true, // Same event every year (optional)
+            // },
             {
               id: "Double_Gold",
               name: "Double Gold",
@@ -384,7 +384,14 @@
           activeEvent.currentTarget.evoCalendar.$active.events[0];
         var filtered = listofAll.filter((x) => x.id == curentID);
 
+        var mostwaitedEvents = [];
+        for (var i = 0; i < listofAll.length; i++) {
+          var today = new Date() - new Date(listofAll[i].date[0]);
+          today = Math.floor(today / (1000 * 60 * 60 * 24));
+          mostwaitedEvents.push(today);
+        }
         console.log(filtered);
+        console.log(mostwaitedEvents);
         if (filtered.length >= 2) {
           // var lastEventDays = filtered.find((x) => new Date(x.datediff));
           var currentIndex = filtered.findIndex((x) => x == currentEvent);
