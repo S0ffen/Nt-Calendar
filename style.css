@@ -25,7 +25,35 @@
   color: red;
   font-weight: bold;
   font-size: x-large;
-  height: 50px;
+  height: 100px;
   width: 80%;
   padding-top: 15px;
+  background: radial-gradient(
+    ellipse farthest-corner at center top,
+    #f39264 0%,
+    #f2606f 100%
+  );
+}
+#oldestEventsList {
+  position: absolute;
+  margin-top: 810px;
+  left: 10%;
+  text-align: center;
+  color: blue;
+  list-style: none;
+  font-weight: bold;
+  font-size: x-large;
+  height: 150px;
+  width: 80%;
+  padding-top: 5px;
+  background: radial-gradient(
+    ellipse farthest-corner at center top,
+    #f39264 0%,
+    #f2606f 100%
+  );
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+}
+#oldestEventsList li {
+  padding-top: 25px;
 }
