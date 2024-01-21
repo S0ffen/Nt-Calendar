@@ -45,10 +45,15 @@
             year: "numeric",
           });
           var datePL = new Date(element.date[0]);
+          var howLong = new Date() - new Date(element.date[0]);
+          howLong = Math.floor(howLong / (1000 * 60 * 60 * 24));
+
           $("#oldestEventsList").append(
-            `<li>${formatter.format(datePL)} |${element.name}|</li>`
+            `<li>${formatter.format(datePL)} |${
+              element.name
+            } | ${howLong}  Dni temu</li>`
           );
-          console.log(element);
+          console.log(howLong);
         });
 
         $("#calendar").evoCalendar({

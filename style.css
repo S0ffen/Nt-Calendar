@@ -28,6 +28,7 @@
   height: 100px;
   width: 80%;
   padding-top: 15px;
+  background-color: black;
 }
 #oldestEventsList {
   position: absolute;

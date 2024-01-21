@@ -132,7 +132,7 @@ var calendarevents = [
     date: ["November/10/2023", "November/13/2023"], // Date range
     description: "Podwójna Szansa na Drop Złota<br>Podwójny Drop Przedmiotów", // Event description (optional)
     type: "event",
-    color: "#000000", // Event custom color (optional)
+    color: "#F0DD55", // Event custom color (optional)
   },
   {
     id: "up_Tatu",
