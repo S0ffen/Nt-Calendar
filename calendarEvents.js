@@ -7,7 +7,7 @@ var calendarevents = [
     description:
       "Zafunduj ulepszenie kartom specjalisty: przez krótki czas masz 50% więcej szansy na sukces!", // Event description (optional)
     type: "event",
-    color: "#000000", // Event custom color (optional)
+    color: "#F75647", // Event custom color (optional)
   },
   // {
   //   id: "event1", // Event's ID (required)
@@ -23,7 +23,7 @@ var calendarevents = [
     date: ["January/12/2024", "January/15/2024"], // Date range
     description: "Double gold od 11 w Piątek do 11 w Poniedziałek", // Event description (optional)
     type: "event",
-    color: "#63d867", // Event custom color (optional)
+    color: "#F0DD55", // Event custom color (optional)
   },
   {
     id: "Ticket_SPP",
@@ -33,7 +33,7 @@ var calendarevents = [
     description:
       "Od 05.01. (11:00 CET) do 08.01. (11:00 CET) otrzymasz +50% szansy na osiągniecie wyższych poziomów podczas ulepszania umiejętności specjalisty partnera!", // Event description (optional)
     type: "event",
-    color: "#63d867", // Event custom color (optional)
+    color: "#EF6F0D", // Event custom color (optional)
   },
   {
     id: "Double_Drop",
@@ -43,7 +43,7 @@ var calendarevents = [
     description:
       "Podwójne dropy przedmiotów (pokonaj potwory - tym razem masz podwójną szansę na zdobycie przedmiotów)", // Event description (optional)
     type: "holiday",
-    color: "#00FFFF", // Event custom color (optional)
+    color: "#FF4FAA", // Event custom color (optional)
   },
   {
     id: "Double_EXP",
@@ -53,7 +53,7 @@ var calendarevents = [
     description:
       "Niezależnie od tego, czy pokonujesz potwory, czy też kończysz misje - za jedno i drugie od 22.12. (godz. 0:00 CET) do 28.12. (godz. 23:59 CET) otrzymasz podwójną liczbę punktów doświadczenia.", // Event description (optional)
     type: "event",
-    color: "#63d867", // Event custom color (optional)
+    color: "#E5351D", // Event custom color (optional)
   },
   {
     id: "Fusion_SPP",
@@ -63,7 +63,7 @@ var calendarevents = [
     description:
       "Podkręć tempo i korzystaj z 50% więcej punktów doświadczenia podczas fuzji specjalisty partnera! Event trwa od 15.12. o godz. 11:00 do 18.12. o godz. 11:00 (CET).", // Event description (optional)
     type: "event",
-    color: "#000f3d", // Event custom color (optional)
+    color: "#41EFEB", // Event custom color (optional)
   },
   {
     id: "Double_IC",
@@ -73,7 +73,7 @@ var calendarevents = [
     description:
       "O każdej pełnej godzinie rozpoczyna się Błyskawiczna Bitwa na kanałach 1, 2 i 3 Błyskawiczna Bitwa Azgobasa rozpoczyna się na kanałach 4, 5 i 6 o następujących godzinach: 11:30, 12:30, 16:30, 17:30, 20:30, 21:30, 22:30 oraz 23:30.", // Event description (optional)
     type: "event",
-    color: "#000f3e", // Event custom color (optional)
+    color: "#668A2A", // Event custom color (optional)
   },
   {
     id: "Hazard",
@@ -83,7 +83,7 @@ var calendarevents = [
     description:
       "O 50% większe szanse na pomyślne zmiennie poziomu unikalności.", // Event description (optional)
     type: "event",
-    color: "#000000", // Event custom color (optional)
+    color: "#ABFA61", // Event custom color (optional)
   },
   {
     id: "up_EQ",
@@ -93,7 +93,7 @@ var calendarevents = [
     description:
       "50% większe szanse na pomyślne ulepszenie broni i wyposażenia (od poziomu +1 do +10). Dzięki temu spada ryzyko, że przedmiot zostanie zniszczony podczas ulepszenia.", // Event description (optional)
     type: "holiday",
-    color: "#00FFFF", // Event custom color (optional)
+    color: "#AB7B61", // Event custom color (optional)
   },
   {
     id: "Double_Box",
@@ -103,7 +103,7 @@ var calendarevents = [
     description:
       "Od 24.11. (11:00 CET) do 27.11. (11:00 CET) masz większą o 75% szansę na zgarnięcie, nie jednego, lecz dwóch pudełek rajdu - taką szansę masz we wszystkich rajdach w NosTale!", // Event description (optional)
     type: "event",
-    color: "#000000", // Event custom color (optional)
+    color: "#7EC8EB", // Event custom color (optional)
   },
   {
     id: "up_SP",
@@ -113,7 +113,7 @@ var calendarevents = [
     description:
       "Zafunduj ulepszenie kartom specjalisty: przez krótki czas masz 50% więcej szansy na sukces!", // Event description (optional)
     type: "event",
-    color: "#000000", // Event custom color (optional)
+    color: "#F75647", // Event custom color (optional)
   },
   {
     id: "Double_IC",
@@ -123,7 +123,7 @@ var calendarevents = [
     description:
       "O każdej pełnej godzinie rozpoczyna się Błyskawiczna Bitwa na kanałach 1 i 2.<br><br>  Błyskawiczna Bitwa Azgobasa rozpoczyna się na kanałach 3 i 4 o następujących godzinach: 11:30, 12:30, 16:30, 17:30, 20:30, 21:30, 22:30 oraz 23:30.", // Event description (optional)
     type: "holiday",
-    color: "#00FFFF", // Event custom color (optional)
+    color: "#7D119B", // Event custom color (optional)
   },
   {
     id: "Double_Drop&Gold",
@@ -132,7 +132,7 @@ var calendarevents = [
     date: ["November/10/2023", "November/13/2023"], // Date range
     description: "Podwójna Szansa na Drop Złota<br>Podwójny Drop Przedmiotów", // Event description (optional)
     type: "event",
-    color: "#F0DD55", // Event custom color (optional)
+    color: "#FF4FAA", // Event custom color (optional)
   },
   {
     id: "up_Tatu",
@@ -142,7 +142,7 @@ var calendarevents = [
     description:
       "Podczas eventu szansa na ulepszenie tatuaży zwiększy się o 30% (poziom +1 do maksymalnie poziomu 9).<br> Jednocześnie zmniejsza się niebezpieczeństwo, że ulepszenie się nie powiedzie.", // Event description (optional)
     type: "event",
-    color: "#000000", // Event custom color (optional)
+    color: "#60F0B4", // Event custom color (optional)
   },
   {
     id: "Reputation&PDR",
@@ -152,7 +152,7 @@ var calendarevents = [
     description:
       "Teraz możesz obłowić się podwójnie i poczwórnie: od 27.10. o godz. 11:00 CEST do 30.10. o godz. 11:00 CET korzystasz ze 100% dopalacza dla PDR oraz 400% dopalacza dla punktów reputacji!", // Event description (optional)
     type: "event",
-    color: "#000000", // Event custom color (optional)
+    color: "#FDD7CF", // Event custom color (optional)
   },
   {
     id: "Ticket_SPP",
@@ -163,7 +163,7 @@ var calendarevents = [
     description:
       "Od 20.10. (11:00 CEST) do 23.10. (11:00 CEST) otrzymasz +50% szansy na osiągniecie wyższych poziomów podczas ulepszania umiejętności specjalisty partnera!<br><br>Za każdym razem, gdy ulepszasz umiejętność specjalisty partnera, możesz osiągnąć bardzo wysoki poziom umiejętności lub bardzo niski poziom. Poziomy są podzielone na S (najlepszy poziom), A, B, C, D, E oraz F (najniższy poziom). Wprawdzie ulepszenia z pewności się powiodą, ale oczywiście chcesz osiągnąć maksymalny wynik. Ten event oferuje Ci możliwość zwiększenia szansy na osiągnięcie poziomu S, A i B!", // Event description (optional)
     type: "event",
-    color: "#000000", // Event custom color (optional)
+    color: "#EF6F0D", // Event custom color (optional)
   },
   {
     id: "Double_EXP",
@@ -171,7 +171,7 @@ var calendarevents = [
     badge: "13/10 - 17/10",
     date: ["October/13/2023", "October/17/2023"], // Date range
     type: "event",
-    color: "#000000", // Event custom color (optional)
+    color: "#E5351D", // Event custom color (optional)
   },
   {
     id: "Perfection",
@@ -181,7 +181,7 @@ var calendarevents = [
     description:
       "Podczas eventu perfekcji od 06.10. (11:00) do 09.10. (11:00 CEST) macie większą szansę na udoskonalenie do perfekcji kart specjalisty używając do tego klejnotów (do +100), co sprawi, że Wasze karty staną się o wiele potężniejsze.", // Date range
     type: "event",
-    color: "#000000", // Event custom color (optional)
+    color: "#E50099", // Event custom color (optional)
   },
   {
     id: "Double_IC",
@@ -191,7 +191,7 @@ var calendarevents = [
     description:
       "O każdej pełnej godzinie rozpoczyna się Błyskawiczna Bitwa na kanałach 1 i 2.<br><br>  Błyskawiczna Bitwa Azgobasa rozpoczyna się na kanałach 3 i 4 o następujących godzinach: 11:30, 12:30, 16:30, 17:30, 20:30, 21:30, 22:30 oraz 23:30.", // Event description (optional)
     type: "event",
-    color: "#000000", // Event custom color (optional)
+    color: "#7D119B", // Event custom color (optional)
   },
   {
     id: "up_RUNES",
@@ -201,7 +201,7 @@ var calendarevents = [
     description:
       "Podczas grawerowania lub wzmacniania run masz 50% więcej szansy na sukces! Swoimi runami możesz zająć się w Wiosce Olorun u Martasa. Aby to zrobić, musisz co najmniej osiągnąć poziom bohatera 10.", // Event description (optional)
     type: "event",
-    color: "#000000", // Event custom color (optional)
+    color: "#8036EA", // Event custom color (optional)
   },
   {
     id: "Fusion_SPP",
@@ -211,7 +211,7 @@ var calendarevents = [
     description:
       "Podkręć tempo i korzystaj z 50% więcej punktów doświadczenia podczas fuzji specjalisty partnera! <br><br>Event trwa od 15.09. o godz. 11:00<br> do 18.09. o godz. 11:00 (CEST).", // Event description (optional)
     type: "event",
-    color: "#000000", // Event custom color (optional)
+    color: "#41EFEB", // Event custom color (optional)
   },
   {
     id: "Hazard",
@@ -221,7 +221,7 @@ var calendarevents = [
     description:
       "50% większe szanse na pomyślne zmiennie poziomu unikalności. Zwiększa szanse na zmianę poziomu unikalności broni lub wyposażenia do maks. poziomu 7 (lub poziomu 8 przy wyposażeniu bohatera). Dzięki temu spada ryzyko, że przedmiot zostanie zniszczony podczas zmiany.", // Event description (optional)
     type: "event",
-    color: "#000000", // Event custom color (optional)
+    color: "#ABFA61", // Event custom color (optional)
   },
   {
     id: "Double_Box",
@@ -231,7 +231,7 @@ var calendarevents = [
     description:
       "od 01.09. (11:00 CEST) <br>do 04.09. (11:00 CEST) <br>masz większą o 50% szansę na zgarnięcie, nie jednego, lecz dwóch pudełek rajdu - taką szansę masz we wszystkich rajdach w NosTale", // Event description (optional)
     type: "event",
-    color: "#000000", // Event custom color (optional)
+    color: "#7EC8EB", // Event custom color (optional)
   },
   {
     id: "up_EQ",
@@ -241,7 +241,7 @@ var calendarevents = [
     description:
       "50% większe szanse na pomyślne ulepszenie broni i wyposażenia (od poziomu +1 do +10).Dzięki temu spada ryzyko, że przedmiot zostanie zniszczony podczas ulepszenia.", // Event description (optional)
     type: "event",
-    color: "#000000", // Event custom color (optional)
+    color: "#AB7B61", // Event custom color (optional)
   },
   {
     id: "RTK_EXP",
@@ -251,7 +251,7 @@ var calendarevents = [
     description:
       "Przy tym za każdą złowioną rybę otrzymacie 50% więcej doświadczenia.<br>Jako kucharz otrzymacie podczas tego eventu 50% więcej doświadczenia za każdą udaną próbę gotowania!<br>W przypadku każdej pomyślnej próby ekstrahowania esencji zwierzaków i oswajania zwierzaków Wasze zebrane doświadczenie jest zwiększone o 50%!", // Event description (optional)
     type: "event",
-    color: "#000000", // Event custom color (optional)
+    color: "#D5B9FF", // Event custom color (optional)
   },
   {
     id: "up_SP",
@@ -261,7 +261,7 @@ var calendarevents = [
     description:
       "Zafunduj ulepszenie kartom specjalisty: przez krótki czas masz 50% więcej szansy na sukces!", // Event description (optional)
     type: "event",
-    color: "#000000", // Event custom color (optional)
+    color: "#F75647", // Event custom color (optional)
   },
   {
     id: "Double_Drop&Gold",
@@ -270,7 +270,7 @@ var calendarevents = [
     date: ["August/04/2023", "August/07/2023"],
     description: "Podwójna Szansa na Drop Złota<br>Podwójny Drop Przedmiotów", // Event description (optional)
     type: "event",
-    color: "#000000", // Event custom color (optional)
+    color: "#FF4FAA", // Event custom color (optional)
   },
   {
     id: "Ticket_SPP",
@@ -280,7 +280,7 @@ var calendarevents = [
     description:
       "Od 28.07. (11:00 CEST) do 31.07. (11:00 CEST) otrzymasz +50% szansy na osiągniecie wyższych poziomów podczas ulepszania umiejętności specjalisty partnera!", // Event description (optional)
     type: "event",
-    color: "#000000", // Event custom color (optional)
+    color: "#EF6F0D", // Event custom color (optional)
   },
   {
     id: "Double_IC",
@@ -290,7 +290,7 @@ var calendarevents = [
     description:
       "O każdej pełnej godzinie rozpoczyna się Błyskawiczna Bitwa na kanałach 1 i 2.<br><br>  Błyskawiczna Bitwa Azgobasa rozpoczyna się na kanałach 3 i 4 o następujących godzinach: 11:30, 12:30, 16:30, 17:30, 20:30, 21:30, 22:30 oraz 23:30.", // Event description (optional)
     type: "event",
-    color: "#000000", // Event custom color (optional)
+    color: "#7D119B", // Event custom color (optional)
   },
   {
     id: "up_Tatu",
@@ -300,7 +300,7 @@ var calendarevents = [
     description:
       "Podczas eventu szansa na ulepszenie tatuaży zwiększy się o 30% (poziom +1 do maksymalnie poziomu 9). Jednocześnie zmniejsza się niebezpieczeństwo, że ulepszenie się nie powiedzie", // Event description (optional)
     type: "event",
-    color: "#000000", // Event custom color (optional)
+    color: "#60F0B4", // Event custom color (optional)
   },
   {
     id: "Fusion_SPP",
@@ -310,7 +310,7 @@ var calendarevents = [
     description:
       "Podkręć tempo i korzystaj z 50% więcej punktów doświadczenia podczas fuzji specjalisty partnera! Event trwa od 07.07. o godz. 11:00 do 10.07. o godz. 11:00 (CEST).", // Event description (optional)
     type: "event",
-    color: "#000000", // Event custom color (optional)
+    color: "#41EFEB", // Event custom color (optional)
   },
   {
     id: "up_RUNES",
@@ -320,7 +320,7 @@ var calendarevents = [
     description:
       "Podkręć tempo i korzystaj z 50% więcej punktów doświadczenia podczas fuzji specjalisty partnera! Event trwa od 07.07. o godz. 11:00 do 10.07. o godz. 11:00 (CEST).", // Event description (optional)
     type: "event",
-    color: "#000000", // Event custom color (optional)
+    color: "#8036EA", // Event custom color (optional)
   },
   {
     id: "Double_Box",
@@ -330,7 +330,7 @@ var calendarevents = [
     description:
       "Od 23.06. (11:00 CEST) do 26.06. (11:00 CEST) masz większą o 50% szansę na zgarnięcie, nie jednego, lecz dwóch pudełek rajdu - taką szansę masz we wszystkich rajdach w NosTale!", // Event description (optional)
     type: "event",
-    color: "#000000", // Event custom color (optional)
+    color: "#7EC8EB", // Event custom color (optional)
   },
   {
     id: "Hazard",
@@ -340,6 +340,6 @@ var calendarevents = [
     description:
       "50% większe szanse na pomyślne zmiennie poziomu unikalności. Zwiększa szanse na zmianę poziomu unikalności broni lub wyposażenia do maks. poziomu 7 (lub poziomu 8 przy wyposażeniu bohatera). Dzięki temu spada ryzyko, że przedmiot zostanie zniszczony podczas zmiany.", // Event description (optional)
     type: "event",
-    color: "#000000", // Event custom color (optional)
+    color: "#ABFA61", // Event custom color (optional)
   },
 ];
