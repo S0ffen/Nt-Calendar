@@ -41,9 +41,9 @@ body {
 }
 #oldestEventsList {
   position: absolute;
-  margin-top: 860px;
   padding-bottom: 25px;
   left: 10%;
+  top: 94%;
   list-style: none;
   font-weight: bold;
   font-size: x-large;
