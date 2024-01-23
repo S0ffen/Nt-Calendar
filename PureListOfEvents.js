@@ -6,9 +6,12 @@ Events.forEach((element) => {
     month: "long",
     year: "numeric",
   });
-  var datePL = new Date(element.date[0]);
+  var datePL1 = new Date(element.date[0]);
+  var datePL2 = new Date(element.date[1]);
   $("#listOfAllEvents").append(
-    `<li><span>${element.name}</span> <br> ${formatter.format(datePL)}</li>`
+    `<li><span>${element.name}</span> <br> ${formatter.format(
+      datePL1
+    )} - ${formatter.format(datePL2)}</li>`
   );
 });
 function Filter() {

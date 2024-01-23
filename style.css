@@ -3,21 +3,30 @@
   padding: 0;
   font-family: "Roboto", sans-serif;
 }
+body,
+html {
+  height: 100%;
+}
+body {
+  background: linear-gradient(45deg, #6ac1c5, #bda5ff);
+  background-attachment: fixed;
+}
+
 .hero {
   width: 100%;
-  height: 110vh;
-  background: linear-gradient(45deg, #6ac1c5, #bda5ff);
+  height: 100%;
   position: relative;
 }
 #calendar {
   width: 80%;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
+
   transform: translate(-50%, -50%);
 }
 
-.previousEvent {
+.previousEvent /* Pasek na górze */ {
   position: absolute;
   margin-top: 80px;
   left: 10%;
@@ -34,12 +43,10 @@
   position: absolute;
   margin-top: 860px;
   left: 10%;
-  text-align: center;
-  color: blue;
   list-style: none;
   font-weight: bold;
   font-size: x-large;
-  height: 175px;
+  height: auto;
   width: 80%;
   background: radial-gradient(
     ellipse farthest-corner at center top,
@@ -49,8 +56,9 @@
   color: #fff;
 }
 #oldestEventsList li {
+  margin-left: -32px;
+  border-style: solid;
   padding-top: 15px;
   padding-bottom: 10px;
-  border-style: solid;
   text-align: center;
 }
