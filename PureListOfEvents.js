@@ -8,10 +8,12 @@ Events.forEach((element) => {
   });
   var datePL1 = new Date(element.date[0]);
   var datePL2 = new Date(element.date[1]);
+  var howLong = new Date() - new Date(element.date[0]);
+  howLong = Math.floor(howLong / (1000 * 60 * 60 * 24));
   $("#listOfAllEvents").append(
     `<li><span>${element.name}</span> <br> ${formatter.format(
       datePL1
-    )} - ${formatter.format(datePL2)}</li>`
+    )} - ${formatter.format(datePL2)}, ${howLong} dni temu</li>`
   );
 });
 function Filter() {
