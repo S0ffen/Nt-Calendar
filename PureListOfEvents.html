@@ -3,9 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="PureListOfEvents.css" />
     <title>Document</title>
   </head>
   <body>
+    <input type="text" id="userInput" onkeyup="Filter()" />
     <ul id="listOfAllEvents"></ul>
 
     <script src="calendarEvents.js"></script>
