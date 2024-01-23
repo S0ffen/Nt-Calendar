@@ -42,17 +42,13 @@ body {
 #oldestEventsList {
   position: absolute;
   margin-top: 860px;
+  padding-bottom: 25px;
   left: 10%;
   list-style: none;
   font-weight: bold;
   font-size: x-large;
   height: auto;
   width: 80%;
-  background: radial-gradient(
-    ellipse farthest-corner at center top,
-    #f39264 0%,
-    #f2606f 100%
-  );
   color: #fff;
 }
 #oldestEventsList li {
@@ -61,4 +57,9 @@ body {
   padding-top: 15px;
   padding-bottom: 10px;
   text-align: center;
+  background: radial-gradient(
+    ellipse farthest-corner at center top,
+    #f39264 0%,
+    #f2606f 100%
+  );
 }
