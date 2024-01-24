@@ -28,16 +28,22 @@ body {
 
 .previousEvent /* Pasek na górze */ {
   position: absolute;
-  margin-top: 80px;
-  left: 10%;
+  top: 13%;
+  left: 35%;
   text-align: center;
   color: white;
   font-weight: bold;
   font-size: x-large;
-  height: 100px;
-  width: 80%;
+  height: auto;
+  width: 30%;
+
   padding-top: 15px;
-  background-color: black;
+  padding-bottom: 15px;
+  background: radial-gradient(
+    ellipse farthest-corner at center top,
+    #f39264 0%,
+    #f2606f 100%
+  );
 }
 #oldestEventsList {
   position: absolute;
