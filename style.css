@@ -44,6 +44,7 @@ body {
     #f39264 0%,
     #f2606f 100%
   );
+  visibility: hidden;
 }
 #oldestEventsList {
   position: absolute;
