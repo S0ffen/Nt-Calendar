@@ -1,5 +1,15 @@
 var calendarevents = [
   {
+    id: "Double_Box",
+    name: "Double Boxy",
+    badge: "26/11/2024 - 29/11/2024",
+    date: ["January/26/2024", "January/29/2024"], // Date range
+    description:
+      "Od 24.11. (11:00 CET) do 27.11. (11:00 CET) masz większą o 75% szansę na zgarnięcie, nie jednego, lecz dwóch pudełek rajdu - taką szansę masz we wszystkich rajdach w NosTale!", // Event description (optional)
+    type: "event",
+    color: "#7EC8EB", // Event custom color (optional)
+  },
+  {
     id: "up_SP",
     name: "Upanie SP",
     badge: "19/11/2024 - 22/11/2024",
