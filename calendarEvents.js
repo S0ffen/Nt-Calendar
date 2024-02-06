@@ -7,7 +7,7 @@ var calendarevents = [
     description:
       "Podczas grawerowania lub wzmacniania run masz 50% więcej szansy na sukces! Swoimi runami możesz zająć się w Wiosce Olorun u Martasa. Aby to zrobić, musisz co najmniej osiągnąć poziom bohatera 10.", // Event description (optional)
     type: "event",
-    color: "#7EC8EB", // Event custom color (optional)
+    color: "#8036EA", // Event custom color (optional)
   },
   {
     id: "Double_Box",
