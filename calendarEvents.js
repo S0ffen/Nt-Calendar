@@ -1,5 +1,25 @@
 var calendarevents = [
   {
+    id: "up_EQ",
+    name: "Upanie EQ",
+    badge: "16/02/2024 - 19/02/2024",
+    date: ["February/16/2024", "February/19/2024"], // Date range
+    description:
+      "50% większe szanse na pomyślne ulepszenie broni i wyposażenia (od poziomu +1 do +10). Dzięki temu spada ryzyko, że przedmiot zostanie zniszczony podczas ulepszenia.", // Event description (optional)
+    type: "holiday",
+    color: "#AB7B61", // Event custom color (optional)
+  },
+  {
+    id: "Double_IC",
+    name: "Double BB",
+    badge: "09/02/2024 - 12/02/2024",
+    date: ["February/09/2024", "February/12/2024"], // Date range
+    description:
+      "O każdej pełnej godzinie rozpoczyna się Błyskawiczna Bitwa na kanałach 1 i 2.<br><br>  Błyskawiczna Bitwa Azgobasa rozpoczyna się na kanałach 3 i 4 o następujących godzinach: 11:30, 12:30, 16:30, 17:30, 20:30, 21:30, 22:30 oraz 23:30.", // Event description (optional)
+    type: "holiday",
+    color: "#7D119B", // Event custom color (optional)
+  },
+  {
     id: "up_RUNES",
     name: "Grawerowanie run",
     badge: "02/02/2024 - 05/02/2024",
@@ -166,7 +186,7 @@ var calendarevents = [
   },
   {
     id: "Reputation&PDR",
-    name: "Tatuaże",
+    name: "x2 PDR,x4 Repa",
     badge: "27/10/2023 - 30/10/2023",
     date: ["October/27/2023", "October/30/2023"], // Date range
     description:

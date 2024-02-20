@@ -70,3 +70,20 @@ body {
     #f2606f 100%
   );
 }
+/* nav {
+  background: linear-gradient(rgb(250, 92, 40), rgb(250, 133, 62));
+}
+@media screen and (min-width: 992px) {
+  .nav-item {
+    width: 100px;
+    text-align: center;
+    font-size: 18px;
+    --nt-txt-shadow: -1px 0 1px #000, 0 1px 1px #000, 1px 0 1px #000,
+      0 -1px 1px #000, -1px -1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000,
+      1px 1px 1px #000;
+    text-shadow: var(--nt-txt-shadow);
+    a:hover {
+      background-color: #6c6675;
+    }
+  }
+} */

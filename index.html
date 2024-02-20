@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="navbar.css"/>
     <link rel="stylesheet" href="evo-calendar.min.css" />
     <link rel="stylesheet" href="evo-calendar.midnight-blue.min.css" />
     <link rel="icon" type="image/x-icon" href="favicon.png" />
@@ -72,7 +73,7 @@
             oldestEvents.push(element);
           }
         });
-        oldestEvents = oldestEvents.reverse().slice(0, 3);
+        oldestEvents = oldestEvents.reverse().slice(0, 5);
         const formatter = new Intl.DateTimeFormat("pl-PL", {
           day: "numeric",
           month: "long",
