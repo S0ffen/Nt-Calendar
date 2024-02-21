@@ -3,7 +3,7 @@ nav {
 }
 @media screen and (min-width: 992px) {
   .nav-item {
-    width: 100px;
+    width: 130px;
     text-align: center;
     font-size: 18px;
     --nt-txt-shadow: -1px 0 1px #000, 0 1px 1px #000, 1px 0 1px #000,
@@ -15,32 +15,17 @@ nav {
     }
   }
 }
-
-.navbar-nav {
-  display: flex;
-}
-
-.nav-item {
-  position: relative;
-}
-
-.nav-link {
-  padding: 0.5rem 1rem; /* Dostosuj odstępy według potrzeb */
-}
-
-.nav-item::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 1px;
-  background-color: black; /* Kolor linii */
-}
-
-.nav-item::before {
-  left: 0;
-}
-
-.nav-item::after {
-  right: 0;
+@media screen and (max-width: 992px) {
+  .nav-item {
+    width: 150px;
+    text-align: center;
+    font-size: 18px;
+    --nt-txt-shadow: -1px 0 1px #000, 0 1px 1px #000, 1px 0 1px #000,
+      0 -1px 1px #000, -1px -1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000,
+      1px 1px 1px #000;
+    text-shadow: var(--nt-txt-shadow);
+  }
+  .lineAtTheEnd {
+    visibility: hidden;
+  }
 }

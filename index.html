@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="navbar.css"/>
+    <link rel="stylesheet" href="navbar.css" />
     <link rel="stylesheet" href="evo-calendar.min.css" />
     <link rel="stylesheet" href="evo-calendar.midnight-blue.min.css" />
     <link rel="icon" type="image/x-icon" href="favicon.png" />
@@ -17,49 +17,62 @@
     <title>Nostale Calendar</title>
   </head>
   <body>
-    <div class="hero">
-      <nav
-        class="navbar navbar-expand-lg navbar-dark bg-dark"
-        aria-label="Tenth navbar example"
+    <nav
+    class="navbar navbar-expand-lg navbar-dark bg-dark"
+    aria-label="Tenth navbar example"
+  >
+    <div class="container-fluid">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarsExample08"
+        aria-controls="navbarsExample08"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
       >
-        <div class="container-fluid">
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarsExample08"
-            aria-controls="navbarsExample08"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-          <div
-            class="collapse navbar-collapse justify-content-md-center"
-            id="navbarsExample08"
-          >
-            <ul class="navbar-nav">
-              <li class="nav-item d-flex align-items-center">
-                <img src="calendar.png" alt="" style="height: 20px; width: 20px; margin-right: 5px;">
-                <a class="nav-link active" aria-current="page" href="index.html">Calendar</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="PureListOfEvents.html">List</a>
-              </li>
-                </ul>
-              </li>
+      <div
+        class="collapse navbar-collapse justify-content-md-center"
+        id="navbarsExample08"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item d-flex align-items-center">
+            <a class="nav-link active d-flex align-items-center" aria-current="page" href="index.html" style="position: relative;">
+              <img src="calendar.png" alt="" style="height: 20px; width: 20px; margin-right: 10px;">
+              <span style="margin-left: auto;">Calendar</span>
+              <div  class="lineAtTheEnd" style="position: absolute; top: 0; bottom: 0; right: 0; width: 1px; background-color: #C5CEDB;"></div>
+            </a>
+          </li>
+
+          <li class="nav-item d-flex align-items-center">
+            <a class="nav-link active d-flex align-items-center" aria-current="page" href="PureListOfEvents.html" style="position: relative;">
+              <img src="list.png" alt="" style="height: 20px; width: 20px; margin-right: 10px;">
+              <span style="margin-left: auto;">List</span>
+              <div class="lineAtTheEnd" style="position: absolute; top: 0; bottom: 0; right: 0; width: 1px; background-color: #C5CEDB;"></div>
+            </a>
+          </li>
+
             </ul>
-          </div>
-        </div>
-      </nav>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
       <p class="previousEvent"></p>
       <div id="calendar"></div>
       <ul id="oldestEventsList"></ul>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
     <script src="evo-calendar.min.js"></script>
     <script src="calendarEvents.js"></script>
 
@@ -128,7 +141,7 @@
           howManyDays = Math.floor(howManyDays / (1000 * 60 * 60 * 24));
           console.log(currentIndex);
           console.log(howManyDays);
-          $(".previousEvent").css("visibility","visible")
+          $(".previousEvent").css("visibility", "visible");
           $(".previousEvent").html(
             "Poprzedni taki event był " +
               filtered[currentIndex + 1].badge +
