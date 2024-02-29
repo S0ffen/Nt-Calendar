@@ -1,5 +1,15 @@
 var calendarevents = [
   {
+    id: "Double_LOL",
+    name: "x2 LOL",
+    badge: "23/02/2024 - 26/02/2024",
+    date: ["February/23/2024", "February/26/2024"], // Date range
+    description:
+      "NosBohaterze, przygotuj się: Kraina Żyjących obdarza Cię podwojonym czasem PD! Od 23.02. (0:00) do 26.02. (godz. 23:59 CET) czas, jaki możesz spędzić w Krainie Żyjących, zostanie podwojony (4 godziny zamiast 2 godzin)!", // Event description (optional)
+    type: "holiday",
+    color: "#AB7B61", // Event custom color (optional)
+  },
+  {
     id: "up_EQ",
     name: "Upanie EQ",
     badge: "16/02/2024 - 19/02/2024",
